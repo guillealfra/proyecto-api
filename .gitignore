@@ -1,0 +1,34 @@
+.env
+
+# Dependencies
+node_modules/
+composer.lock
+vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.log
+
+# PHP
+*.php~
+.php_cs.cache
+
+# PostgreSQL
+*.sql.bak
+pg_dump/
+
+# Testing
+coverage/
+.pytest_cache/
